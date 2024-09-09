@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Ferrari</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FERRARI Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre a Loja</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="conteudo container">
+        <main>
+            <section id="sobre">
+                <img src="./images/loja.jpg" alt="Loja da Ferrari">
+                <article class="descricao">
+                    <h2>Sobre a Loja</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quam. Beatae tenetur ab laboriosam corporis saepe non magni. Aut voluptatibus minima esse a doloribus ea similique voluptate temporibus aliquam eligendi?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, ea repellendus illo unde quod quasi ducimus aspernatur omnis ipsa dolores!</p>
+                </article>
+            </section>
+            <section id="produtos">
+                <h2>Produtos</h2>
+                <div class="loja">
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/ferrari-812.png" alt="Ferrari 812">
+                        </a>
+                        <h3>Ferrari 812
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/ferrari-coupe.png" alt="Ferrari Coupe">
+                        </a>
+                        <h3>Ferrari Coupe.
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/ferrarigto.png" alt="Ferrari 590 GTO">
+                        </a>
+                        <h3>Ferrari 590 GTO.
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./images/ferraripurosangue.png" alt="Ferrari Puro Sangue">
+                        </a>
+                        <h3>Ferrari Puro Sangue.
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ferrari Store. Todos os direitos reservados.</p>
+        </div>
+        
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
+</body>
+</html>
